@@ -1,0 +1,90 @@
+div.todoApp {
+  width: 700px;
+
+  padding: 40px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.todoApp h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div.todoApp div.todoMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(197, 180, 180);
+}
+
+div.todoApp div.addTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+div.todoApp div.addTask input {
+  width: 520px;
+  border-radius: 10px;
+  height: 40px;
+  padding: 4px 20px;
+  border: 1px solid rgb(224, 208, 208);
+}
+
+div.todoApp div.addTask button.addTaskBtn {
+  color: white;
+  background-color: rgb(53, 53, 255);
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+}
+
+div.todoApp div.listTask {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+div.todoApp div.listTask div.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+div.todoApp div.listTask div.task div.taskName {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+div.todoApp div.listTask div.task div.taskName input {
+  border: 1px solid black;
+}
+
+div.listTask div.completedTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 700px;
+}
+
+div.todoApp button.deleteAll {
+  background-color: red;
+  border: none;
+  color: white;
+  position: relative;
+  left: 550px;
+  border-radius: 10px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+}
